@@ -1,6 +1,7 @@
 # dist
 cache
 .vscode
+push.bat
 
 # Logs
 logs
