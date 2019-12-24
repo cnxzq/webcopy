@@ -1,3 +1,7 @@
+# dist
+cache
+.vscode
+
 # Logs
 logs
 *.log

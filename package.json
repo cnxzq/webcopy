@@ -1,0 +1,29 @@
+{
+  "name": "webcopy",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.0",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "open": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zq1988626/webcopy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zq1988626/webcopy/issues"
+  },
+  "homepage": "https://github.com/zq1988626/webcopy#readme"
+}

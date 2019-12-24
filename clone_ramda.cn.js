@@ -1,12 +1,3 @@
-# webcopy
-
-## install
-```
-npm install webcopy
-```
-
-## example
-```js
 const open = require('open');
 const path = require('path');
 const webcopy = require("./webcopy");
@@ -15,4 +6,3 @@ webcopy.createService('http://ramda.cn/',{
 },function(url){
     open("http://"+url,["chrome"])
 })
-```
