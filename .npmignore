@@ -1,1 +1,4 @@
 push.bat
+cache
+.vscode
+push.bat
