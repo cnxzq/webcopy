@@ -1,7 +1,7 @@
 {
   "name": "webcopy",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "index.js",
   "directories": {
     "lib": "lib"
