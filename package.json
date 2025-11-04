@@ -11,9 +11,13 @@
     "zlib": "^1.0.5"
   },
   "devDependencies": {
-    "open": "^7.0.0"
+    "open": "^7.0.0",
+    "reverse-sourcemap": "^1.0.4",
+    "source-map": "^0.7.6"
   },
   "scripts": {
+    "decode":"reverse-sourcemap -o ./output -M \".*\\.map\" ./cache/gatesstsuperlaser/js/",
+    "start": "node clone_gatesstsuperlaser_com.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
